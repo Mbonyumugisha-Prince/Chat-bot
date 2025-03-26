@@ -51,7 +51,7 @@ const createMsgElement = (content, ...classes) => {
 
 const generateResponse = async (text) => {
     try {
-        const response = await fetch('https://chatbot-h0x5.onrender.com/api/chat', {
+        const response = await fetch('http://localhost:3000/api/chat', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
