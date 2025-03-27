@@ -19,7 +19,7 @@ Local Setup
 Clone the Repository:
  bash
 CollapseWrapCopy
-git clone https://github.com/your-username/ai-chatbot.git
+git clone https://github.com/Mbonyumugisha-Prince/Chatbot.git
 cd ai-chatbot
 
 
@@ -64,7 +64,7 @@ sudo apt install -y nodejs npm git
 Clone the Repository:
  bash
 CollapseWrapCopy
-git clone https://github.com/Mbonyumugisha-Prince/ai-chatbot.git
+git clone https://github.com/Mbonyumugisha-Prince/Chatbot.git
 cd ai-chatbot
 
 
