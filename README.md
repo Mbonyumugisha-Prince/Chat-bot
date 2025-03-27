@@ -13,7 +13,7 @@ Git
 Ubuntu Servers (tested on Ubuntu 20.04 LTS or later)
 Nginx (for load balancing)
 Google Generative AI API Key (obtained from Google AI Studio)
-Domain Name: Configured to point to the load balancer (www.princemugisha)
+Domain Name: Configured to point to the load balancer (www.princemugisha.tech)
 Installation
 Local Setup
 Clone the Repository:
@@ -104,7 +104,7 @@ curl http://localhost:3000
  You should see the HTML content of the chatbot interface.
 Repeat these steps on both 6540-web-01 and 6540-web-02.
 Step 2: Configure the Load Balancer (6540-lb-01)
-Set up Nginx as a load balancer on 3.86.83.2 to distribute traffic for www.princemugisha.
+Set up Nginx as a load balancer on 3.86.83.2 to distribute traffic for www.princemugisha.tech.
 SSH into the Load Balancer:
  bash
 CollapseWrapCopy
@@ -131,7 +131,7 @@ upstream chatbot_backend {
 
 server {
     listen 80;
-    server_name www.princemugisha;
+    server_name www.princemugisha.tech;
 
     location / {
         proxy_pass http://chatbot_backend;
