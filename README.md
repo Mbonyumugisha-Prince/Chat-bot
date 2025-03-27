@@ -156,7 +156,7 @@ sudo systemctl restart nginx
 
 
 DNS Configuration:
-Update your domain registrar’s DNS settings to point www.princemugisha to the load balancer’s IP (3.86.83.2).
+Update your domain registrar’s DNS settings to point www.princemugisha.tech to the load balancer’s IP (3.86.83.2).
 Example DNS record:
  text
 CollapseWrapCopy
@@ -167,7 +167,7 @@ TTL: 300
 
 
 Wait for DNS propagation (may take up to 48 hours).
-Verify Load Balancing: Open a browser and visit http://www.princemugisha. Refresh the page multiple times to confirm traffic is distributed between the two servers. Check server logs on 6540-web-01 and 6540-web-02:
+Verify Load Balancing: Open a browser and visit http://www.princemugisha.tech. Refresh the page multiple times to confirm traffic is distributed between the two servers. Check server logs on 6540-web-01 and 6540-web-02:
  bash
 CollapseWrapCopy
 pm2 logs ai-chatbot
