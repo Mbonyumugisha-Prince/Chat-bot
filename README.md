@@ -64,7 +64,7 @@ sudo apt install -y nodejs npm git
 Clone the Repository:
  bash
 CollapseWrapCopy
-git clone https://github.com/your-username/ai-chatbot.git
+git clone https://github.com/Mbonyumugisha-Prince/ai-chatbot.git
 cd ai-chatbot
 
 
@@ -202,14 +202,3 @@ Google Generative AI for the Gemini API.
 Material Symbols for icons.
 Poppins Font for typography.
 
-Notes
-Replace https://github.com/your-username/ai-chatbot.git with your actual repository URL.
-Ensure the Gemini API key is valid and has appropriate permissions.
-For production, consider adding HTTPS by obtaining an SSL certificate (e.g., via Let’s Encrypt) and updating the Nginx configuration to listen on port 443:
- nginx
-CollapseWrapCopy
-server {
-    listen 443 ssl;
-    server_name www.princemugisha;
-    ssl_certificate /etc/letsencrypt/live/www.princemugisha/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/ww
