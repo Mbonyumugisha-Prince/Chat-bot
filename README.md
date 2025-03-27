@@ -19,7 +19,7 @@ Local Setup
 Clone the Repository:
  bash
 CollapseWrapCopy
-git clone https://github.com/Mbonyumugisha-Prince/Chatbot.git
+git clone https://github.com/Mbonyumugisha-Prince/Chat-bot.git
 cd ai-chatbot
 
 
@@ -64,7 +64,7 @@ sudo apt install -y nodejs npm git
 Clone the Repository:
  bash
 CollapseWrapCopy
-git clone https://github.com/Mbonyumugisha-Prince/Chatbot.git
+git clone https://github.com/Mbonyumugisha-Prince/Chat-bot.git
 cd ai-chatbot
 
 
@@ -120,7 +120,7 @@ sudo apt update && sudo apt install -y nginx
 Configure Nginx for Load Balancing: Edit the Nginx configuration file:
  bash
 CollapseWrapCopy
-sudo nano /etc/nginx/sites-available/ai-chatbot
+sudo nano /etc/nginx/sites-available/chatbot
  Add the following configuration:
  nginx
 CollapseWrapCopy
